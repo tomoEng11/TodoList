@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB079FE22AFF875700856A08 /* TodoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB079FE02AFF875700856A08 /* TodoItemCell.swift */; };
-		BB079FE32AFF875700856A08 /* TodoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB079FE12AFF875700856A08 /* TodoItemCell.xib */; };
 		BBB987CD2AF9CE0800DC8079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB987CC2AF9CE0800DC8079 /* AppDelegate.swift */; };
 		BBB987CF2AF9CE0800DC8079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB987CE2AF9CE0800DC8079 /* SceneDelegate.swift */; };
 		BBB987D12AF9CE0800DC8079 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB987D02AF9CE0800DC8079 /* TodoListViewController.swift */; };
@@ -25,8 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB079FE02AFF875700856A08 /* TodoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemCell.swift; sourceTree = "<group>"; };
-		BB079FE12AFF875700856A08 /* TodoItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoItemCell.xib; sourceTree = "<group>"; };
 		BBB987C92AF9CE0800DC8079 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB987CC2AF9CE0800DC8079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB987CE2AF9CE0800DC8079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				BBB987D22AF9CE0800DC8079 /* Main.storyboard */,
-				BB079FE02AFF875700856A08 /* TodoItemCell.swift */,
-				BB079FE12AFF875700856A08 /* TodoItemCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,7 +178,6 @@
 			files = (
 				BBB987D92AF9CE0900DC8079 /* LaunchScreen.storyboard in Resources */,
 				BBB987D62AF9CE0900DC8079 /* Assets.xcassets in Resources */,
-				BB079FE32AFF875700856A08 /* TodoItemCell.xib in Resources */,
 				BBB987D42AF9CE0800DC8079 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +191,6 @@
 			files = (
 				BBB987E62AF9F8AA00DC8079 /* Item.swift in Sources */,
 				BBB987E82AF9F8C400DC8079 /* Category.swift in Sources */,
-				BB079FE22AFF875700856A08 /* TodoItemCell.swift in Sources */,
 				BBB987D12AF9CE0800DC8079 /* TodoListViewController.swift in Sources */,
 				BBBD1F952AFF382A00538A81 /* SwipeTableViewController.swift in Sources */,
 				BBB987CD2AF9CE0800DC8079 /* AppDelegate.swift in Sources */,
