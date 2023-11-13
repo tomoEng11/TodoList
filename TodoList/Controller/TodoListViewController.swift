@@ -12,13 +12,22 @@ class TodoListViewController: SwipeTableViewController {
     
     var todoItems: Results<Item>?
     let realm = try! Realm()
-    var selectedCategory: Category?
+    var selectedCategory: Category? {
+        didSet{
+            loadItems()
+        }
+    }
     @IBOutlet weak var searchBar: UISearchBar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        loadItems()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        title = selectedCategory!.name
+       
     }
     
     //MARK: - Add New Item
