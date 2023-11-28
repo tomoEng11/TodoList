@@ -36,7 +36,7 @@ class TodoListViewController: SwipeTableViewController {
         var textField = UITextField()
         
         let alert = UIAlertController(title: "Add New Item", message: "", preferredStyle: .alert)
-        
+
         let action = UIAlertAction(title: "Add an item", style: .default) { (action) in
             
             if let currentCategory = self.selectedCategory {
@@ -60,7 +60,12 @@ class TodoListViewController: SwipeTableViewController {
             textField = alertTextField
             textField.placeholder = "Create a new item"
         }
-        
+
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
+            self.dismiss(animated: true, completion: nil)
+        }
+
+        alert.addAction(cancel)
         alert.addAction(action)
         present(alert, animated: true)
     }
